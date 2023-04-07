@@ -1,0 +1,40 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:left="@dimen/track_three_states_border_width" android:right="@dimen/track_three_states_border_width" android:top="@dimen/track_three_states_border_width" android:bottom="@dimen/track_three_states_border_width">
+                <shape android:shape="rectangle">
+                    <size android:width="@dimen/thumb_three_states_width" android:height="@dimen/thumb_three_states_height" />
+                    <corners android:radius="@dimen/thumb_three_states_radius" />
+                    <solid android:color="@color/thumb_state_off_fill" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_checked="false">
+        <layer-list>
+            <item  android:left="@dimen/track_three_states_border_width" android:right="@dimen/track_three_states_border_width" android:top="@dimen/track_three_states_border_width" android:bottom="@dimen/track_three_states_border_width">
+                <shape android:shape="rectangle">
+                    <size android:width="@dimen/thumb_three_states_width" android:height="@dimen/thumb_three_states_height" />
+                    <corners android:radius="@dimen/thumb_three_states_radius" />
+                    <stroke android:width="@dimen/thumb_three_states_border_width" android:color="@color/thumb_state_on_border" />
+                    <solid android:color="@color/thumb_state_on_fill" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item>
+        <layer-list>
+            <item android:left="@dimen/track_three_states_border_width" android:right="@dimen/track_three_states_border_width" android:top="@dimen/track_three_states_border_width" android:bottom="@dimen/track_three_states_border_width">
+                <shape android:shape="rectangle">
+                    <size android:width="@dimen/thumb_three_states_width" android:height="@dimen/thumb_three_states_height" />
+                    <corners android:radius="@dimen/thumb_three_states_radius" />
+                    <solid android:color="@color/thumb_state_off_fill" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+
+</selector>

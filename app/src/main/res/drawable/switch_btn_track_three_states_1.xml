@@ -1,0 +1,10 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:width="@dimen/track_three_states_width" android:height="@dimen/track_three_states_height" />
+            <corners android:radius="@dimen/track_three_states_radius" />
+            <solid android:color="@color/white" />
+            <stroke android:width="@dimen/track_three_states_border_width" android:color="@color/grey_light_2" />
+        </shape>
+    </item>
+</selector>

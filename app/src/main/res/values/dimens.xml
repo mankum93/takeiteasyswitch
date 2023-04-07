@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="thumb_three_states_width">20dp</dimen>
+    <dimen name="thumb_three_states_height">24dp</dimen>
+    <!--<dimen name="thumb_three_states_width">31dp</dimen>
+    <dimen name="thumb_three_states_height">34dp</dimen>-->
+    <dimen name="thumb_three_states_radius">21dp</dimen>
+    <dimen name="thumb_three_states_border_width">2dp</dimen>
+    <!--<dimen name="thumb_three_states_border_width">8dp</dimen>-->
+
+    <dimen name="track_three_states_width">47dp</dimen>
+    <dimen name="track_three_states_height">36dp</dimen>
+    <dimen name="track_three_states_radius">21dp</dimen>
+    <dimen name="track_three_states_border_width">6dp</dimen>
+
+</resources>
